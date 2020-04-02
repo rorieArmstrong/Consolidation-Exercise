@@ -1,4 +1,5 @@
-$(document).on('load', function(){
+$(document).ready( function(){
+    console.log("hello")
     var text = window.location.hash.substring(1).split("_")
     const Name = text[0];
     const Description = text[1];
