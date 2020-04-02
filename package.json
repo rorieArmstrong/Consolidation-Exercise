@@ -1,0 +1,24 @@
+{
+  "name": "consolidation-exercise",
+  "version": "1.0.0",
+  "description": "Creating a marketplace",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rorieArmstrong/Consolidation-Exercise.git"
+  },
+  "author": "Rorie Armstrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rorieArmstrong/Consolidation-Exercise/issues"
+  },
+  "homepage": "https://github.com/rorieArmstrong/Consolidation-Exercise#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  }
+}
