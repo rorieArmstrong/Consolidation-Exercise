@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-forms</title>
+    <link rel="stylesheet"  href="./style.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <article id="writing">
+        <h2>Item Creation</h2>
+        <form action="http://localhost:808/item" method="POST">  
+    
+            <div class="container"> 
+
+                <label><b>Item Name</b></label> 
+                <input type="text" placeholder="Enter Item Name" id="name" name="name" required> 
+                
+                <label><b>Item Desciption</b></label> 
+                <input type="text" placeholder="Enter Item Desciption" id="description" name="description" required>
+                
+                <label><b>Item Value</b></label> 
+                <input type="text" placeholder="Enter Item Value" id="value" name="value" required> 
+    
+                <button type="submit">Submit</button>  
+            </div> 
+        </form>
+    </article>
+</body>
+</html>
